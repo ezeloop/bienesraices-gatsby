@@ -19,6 +19,11 @@ const ContenidoPagina = styled.div`
     .imagen {
         max-width: 800px;
         max-height: 500px;
+
+        @media (max-width: 480px) {
+        max-width: 100%;
+        max-height: 300px;
+    }
     }
     
 `;
